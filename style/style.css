@@ -1,0 +1,15 @@
+/*stlye for index.html*/
+html {
+    color: white;
+}
+.container {
+    width: 800px;
+    max-width: 100%;
+    background-color: #121212;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 6px #000000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
