@@ -1,9 +1,9 @@
 //main für Index.html
 
-function TextFlaps(flaps) {
-    if(document.getElementById(flaps).style.display === "none") {
-        document.getElementById(flaps).style.display = "inline";
+function showThings(show){
+    if(document.getElementById(show).style.display === "none") {
+        document.getElementById(show).style.display = "inline";
     } else {
-        document.getElementById(flaps).style.display = "none";
+        document.getElementById(show).style.display = "none";
     }
- }
+}
