@@ -15,10 +15,11 @@ html {
     margin-right: auto;
 }
 p {
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
     color: lightcyan;
 }
 h1 {
     color: cadetblue;
+    font-size: 55px;
 }
