@@ -6,7 +6,11 @@ html {
 .container {
     width: 800px;
     max-width: 100%;
+<<<<<<< Updated upstream
     background-color: #0d947788;
+=======
+    background-color: #79a11c;
+>>>>>>> Stashed changes
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px 6px color="black";
@@ -17,6 +21,7 @@ html {
 p {
     font-size: 35px;
     text-align: center;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 =======
@@ -29,4 +34,7 @@ h1 {
 >>>>>>> e77d2b067857faa2c89c9fd3d64cc2dc2e68c2e9
 =======
 >>>>>>> e77d2b067857faa2c89c9fd3d64cc2dc2e68c2e9
+=======
+
+>>>>>>> Stashed changes
 }
