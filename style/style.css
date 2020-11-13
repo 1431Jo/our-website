@@ -1,5 +1,6 @@
-/*stlye for index.html*/
+/*style for index.html*/
 html {
+    background: linear-gradient(to right, #0d65e9, #32e29c);
     color: white;
 }
 .container {
@@ -12,4 +13,8 @@ html {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+p {
+    font-size: 20px;
+    text-align: center;
 }
