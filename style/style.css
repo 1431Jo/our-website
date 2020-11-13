@@ -22,4 +22,5 @@ p {
 h1 {
     color: cadetblue;
     font-size: 55px;
+    text-decoration: underline;
 }
