@@ -1,5 +1,6 @@
 /*style for index.html*/
 html {
+    /*for right and left transition*/
     background: linear-gradient(to right, #0d65e9, #32e29c);
     color: white;
 }
@@ -9,7 +10,7 @@ html {
     background-color: #0d947788;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 6px; color:black;
+    box-shadow: 0 0 10px 6px; color: black;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
