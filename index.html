@@ -5,9 +5,9 @@
         <title>IdiotHub</title>
 
         <!--CSS-->
-        <link rel="stylesheet" type="text/css" href="portfolios/Jo/style.css">
-        <link rel="stylesheet" type="text/css" href="portfolios/Nic/style.css">
-        <link rel="stylesheet" type="text/css" href="portfolios/Pip/style.css">
+        <link rel="stylesheet" type="text/css" href="style/portfolios/Jo/style.css">
+        <link rel="stylesheet" type="text/css" href="style/portfolios/Nic/style.css">
+        <link rel="stylesheet" type="text/css" href="style/portfolios/Pip/style.css">
         <link rel="stylesheet" type="text/css" href="style/style.css">
 
         <!--JavaScript-->
@@ -20,6 +20,8 @@
     <body>
     <br>
     <br>
+
+
     <!--"Das sind wir" box-->
     <div class="container">
         <h1 id="tab" class="we" onclick="flapThings('aboutUs')">Das sind wir (click) </h1>
@@ -38,31 +40,76 @@
     <br>
     <br>
     <br>
+
+
     <!--Jo portfolio-->
     <div class="containerLennard">
         <h1 id="tabTwo" class="Lennard" onclick="flapThings('Lennard')">Portfolio für Jo (click) </h1>
         <div id="Lennard" style="display: none;">
-            <p>lol</p>
+            <p>Hey mein Internet Name ist Jo. Ich bin noch recht jung, aber nicht gerade knackig c:.
+            Ich liebe die Wissenschaft, am meisten die Naturwissenschaften. Aber auch das Programmieren
+            liebe ich. Am meisten mag ich es Bot's oder KI's zu programmieren, aber auch im WebDevelopment
+            bin ich tätig. Ich würde mich schon als Hobby Webdeveloper bezeichnen.</p>
+
+            <!--Jo's accounts-->
+            <h2 id="h2JoA" class="myAccounts" onclick="flapThings('myAccountsID')">Meine Accounts (click)</h2>
+            <div id="myAccountsID" style="display: none;">
+                <a class="first" href="https://steamcommunity.com/profiles/76561199014679462" target="_blank">Mein Steam!</a>
+                <br>
+                <a class="first" href="https://twitter.com/1431Jo1" target="_blank">Mein Twitter!</a>
+                <br>
+                <a class="first" href="https://github.com/1431Jo" target="_blank">Mein GitHub!</a>
+                <br>
+                <a class="first" href="https://github.com/1431Jos" target="_blank">Meine Github-organization</a>
+            </div>
+
+            <!--Jo's skills-->
+            <h2 id="h2Jo" class="mySkills" onclick="flapThings('mySkillsID')">Meine Skills (click)</h2>
+            <div id="mySkillsID" style="display: none;">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+            </div>
+
+            <!--Jo's projects-->
+            <h2 id="h2JoP" class="myProjects" onclick="flapThings('myProjectsID')">Meine Projekte (click)</h2>
+            <div id="myProjectsID" style="display: none;">
+                <!--active projects-->
+                <h3 id="h2JoAP" class="activeProjects" onclick="flapThings('myActiveProjectsID')">Meine aktiven Projekte! (click)</h3>
+                <div id="myActiveProjectsID" style="display: none;">
+                <li> <a href="https://github.com/1431Jo/Jode">Meine eigene Portfolio Website</a> <br> <a href="https://1431jo.github.io/Jode/">Link zur Website</a></li>
+                </div>
+                <!--inactive projects-->
+                <h3 id="h2JoIP" class="inactiveProjects" onclick="flapThings('myInactiveProjectsID')">Meine inaktiven Projekte! (click)</h3>
+                <div id="myInactiveProjectsID" style="display: none;">
+                <li> <a href="https://github.com/1431Jo/MyFirstDiscordBot">Mein erster Discord Bot (pausiert)</a> <br>Dieses Projekt wurde pausiert</li>
+                </div>
+            </div>
         </div>
     </div>
     <br>
     <br>
     <br>
+
+
     <!--Nic portfolio-->
     <div class="containerNiclas">
         <h1 id="tabThree" class="Niclas" onclick="flapThings('Niclas')">Portfolio für Nic (click) </h1>
         <div id="Niclas" style="display: none;">
-            <p>lol</p>
+            <p>------------------------------------------------------------------------------------------------</p>
         </div>
     </div>
     <br>
     <br>
     <br>
+
+
     <!--Pip portfolio-->
-    <div class="containerNiclas">
+    <div class="containerTobi">
         <h1 id="tabFour" class="Tobi" onclick="flapThings('Tobi')">Portfolio für Pip (click) </h1>
         <div id="Tobi" style="display: none;">
-            <p>lol</p>
+            <p>------------------------------------------------------------------------------------------------</p>
         </div>
     </div>
     </body>
