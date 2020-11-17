@@ -25,7 +25,7 @@ h1 {
     font-size: 55px;
     text-decoration: underline;
 }
-#tab1:hover {
+#tab:hover, #tabTwo:hover, #tabThree:hover, #tabFour:hover {
     cursor: pointer;
     opacity: 50%;
 }
