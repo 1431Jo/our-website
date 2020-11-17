@@ -16,7 +16,7 @@ html {
     margin-right: auto;
 }
 p {
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     color: lightcyan;
 }
@@ -28,4 +28,14 @@ h1 {
 #tab:hover, #tabTwo:hover, #tabThree:hover, #tabFour:hover {
     cursor: pointer;
     opacity: 50%;
+}
+li {
+    font-size: 25px;
+    text-align: center;
+    color: lightcyan;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
 }
