@@ -1,0 +1,65 @@
+/*style for Jo portfolio*/
+#tabTwo {
+    color: hsl(200, 100%, 50%);
+}
+#h2Jo:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+#h2JoA:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+#h2JoP:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+#h2JoAP:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+#h2JoIP:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+.mySkills {
+     font-size: 35px;
+     text-decoration: underline;
+     color: hsl(150, 100%, 40%);
+     text-align: center;
+ }
+.myAccounts {
+    font-size: 35px;
+    text-decoration: underline;
+    color: hsl(150, 100%, 40%);
+    text-align: center;
+}
+.myProjects {
+    font-size: 35px;
+    text-decoration: underline;
+    color: hsl(150, 100%, 40%);
+    text-align: center;
+}
+.activeProjects {
+    font-size: 27px;
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: center;
+}
+.inactiveProjects {
+    font-size: 27px;
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: center;
+}
+.containerLennard {
+    width: 800px;
+    max-width: 100%;
+    background-color: #121212;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 4px; color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
