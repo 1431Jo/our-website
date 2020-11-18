@@ -1,6 +1,6 @@
 /*style for Pip portfolio*/
 #tabFour {
-    color: rgb(28, 219, 28);
+    color: hsl(200, 100%, 50%);
 }
 #h2PiPPic:hover {
     cursor: pointer;
@@ -8,13 +8,13 @@
 }
 .myPictures {
     text-decoration: underline;
-    color: hsl(150, 100%, 40%);
+    color: hsl(192, 74%, 49%);
     text-align: center;
 }
 .containerTobi {
     width: 800px;
     max-width: 100%;
-    background-color: #03443688;
+    background-color: #121212;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px 6px; color: black;
@@ -23,6 +23,41 @@
     margin-right: auto;
 }
 .firstPic {
+    text-align: center;
+    width: 60%;
+    height: 15%;
+    margin-left: 20px;
+    border: solid 5px black;
+}
+.secPic {
+    text-align: center;
+    width: 60%;
+    height: 15%;
+    margin-left: 20px;
+    border: solid 5px black;
+}
+.thirdPic {
+    text-align: center;
+    width: 60%;
+    height: 5%;
+    margin-left: 20px;
+    border: solid 5px black;
+}
+.fourthPic {
+    text-align: center;
+    width: 60%;
+    height: 15%;
+    margin-left: 20px;
+    border: solid 5px black;
+}
+.fifthPic {
+    text-align: center;
+    width: 60%;
+    height: 15%;
+    margin-left: 20px;
+    border: solid 5px black;
+}
+.sixthPic {
     text-align: center;
     width: 60%;
     height: 15%;
