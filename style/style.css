@@ -30,9 +30,25 @@ a {
     text-decoration: none;
     font-size: 25px;
 }
-#tab:hover, #tabTwo:hover, #tabThree:hover, #tabFour:hover, #tabFive:hover {
+#tab:hover {
      cursor: pointer;
      opacity: 50%;
+}
+#tabTwo:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+#tabThree:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+#tabFour:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+#tabFive:hover {
+    cursor: pointer;
+    opacity: 50%;
 }
 .container {
     width: 800px;
@@ -45,4 +61,8 @@ a {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+.headline {
+    color: #393838;
+    text-align: center;
 }
