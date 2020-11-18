@@ -1,6 +1,15 @@
 /*style for Pip portfolio*/
-#tabFour {color: rgb(28, 219, 28);
-
+#tabFour {
+    color: rgb(28, 219, 28);
+}
+#h2PiPPic:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+.myPictures {
+    text-decoration: underline;
+    color: hsl(150, 100%, 40%);
+    text-align: center;
 }
 .containerTobi {
     width: 800px;
