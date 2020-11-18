@@ -2,7 +2,7 @@
 #tabTwo {
     color: hsl(200, 100%, 50%);
 }
-#h2Jo:hover {
+#h2JoS:hover {
     cursor: pointer;
     opacity: 50%;
 }
@@ -23,31 +23,26 @@
     opacity: 50%;
 }
 .mySkills {
-     font-size: 35px;
      text-decoration: underline;
      color: hsl(150, 100%, 40%);
      text-align: center;
  }
 .myAccounts {
-    font-size: 35px;
     text-decoration: underline;
     color: hsl(150, 100%, 40%);
     text-align: center;
 }
 .myProjects {
-    font-size: 35px;
     text-decoration: underline;
     color: hsl(150, 100%, 40%);
     text-align: center;
 }
 .activeProjects {
-    font-size: 27px;
     text-decoration: underline;
     color: hsl(750, 100%, 40%);
     text-align: center;
 }
 .inactiveProjects {
-    font-size: 27px;
     text-decoration: underline;
     color: hsl(750, 100%, 40%);
     text-align: center;
