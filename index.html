@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="style/portfolios/Nic/style.css">
         <link rel="stylesheet" type="text/css" href="style/portfolios/Pip/style.css">
         <link rel="stylesheet" type="text/css" href="style/style.css">
-        <link rel="stylesheet" type="text/css" href="style/archiv/style.css">
+        <link rel="stylesheet" type="text/css" href="style/archive/style.css">
 
         <!--JavaScript-->
         <script rel="script" type="text/javascript" src="JS/main.js"></script>
@@ -18,131 +18,162 @@
         <link rel="icon" type="image/jpg" href="images/TabIcon.png">
     </head>
     <body>
-    <br>
-    <br>
+        <header>
+            <br>
+            <!--Headline-->
+            <h1 class="headline">IdiotHub</h1>
+            <br>
+            <br>
+        </header>
+        <br>
+        <br>
 
 
-    <!--"Das sind wir" box-->
-    <div class="container">
-        <h1 id="tab" class="we" onclick="flapThings('aboutUs')">Das sind wir (click) </h1>
-        <div id="aboutUs" style="display: none;">
-            <p>
-                Wir sind 3,5 Vollidioten die angefangen haben sich ein bisschen mit HTML auseinander zu setzen.
-                <br>
-                Diese Website ist unser erster Versuch etwas richtig zu machen, in unserem armseligen Leben.
-                <br>
-                Wir sind geistig auf dem Alter von 3 hängen geblieben.
-                <br>
-                Auf unserer Website finden sich auch ein paar JS und CSS Elemente.
-            </p>
+        <!--"Das sind wir" box-->
+        <div class="container">
+            <h1 id="tab" class="we" onclick="flapThings('aboutUs')">Das sind wir (click) </h1>
+            <div id="aboutUs" style="display: none;">
+                <p>
+                    Wir sind 3,5 Vollidioten die angefangen haben sich ein bisschen mit HTML auseinander zu setzen.
+                    <br>
+                    Diese Website ist unser erster Versuch etwas richtig zu machen, in unserem armseligen Leben.
+                    <br>
+                    Wir sind geistig auf dem Alter von 3 hängen geblieben.
+                    <br>
+                    Auf unserer Website finden sich auch ein paar JS und CSS Elemente.
+                </p>
+            </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
 
 
-    <!--Jo portfolio-->
-    <div class="containerLennard">
-        <h1 id="tabTwo" class="Lennard" onclick="flapThings('LennardID')">Portfolio für Jo (click) </h1>
-        <div id="LennardID" style="display: none;">
-            <p>Hey mein Internet Name ist Jo. Ich bin noch recht jung, aber nicht gerade knackig c:.
-            Ich liebe die Wissenschaft, am meisten die Naturwissenschaften. Aber auch das Programmieren
-            liebe ich. Am meisten mag ich es Bot's oder KI's zu programmieren, aber auch im WebDevelopment
-            bin ich tätig. Ich würde mich schon als Hobby Webdeveloper bezeichnen.</p>
+        <!--Jo portfolio-->
+        <div class="containerLennard">
+            <h1 id="tabTwo" class="Lennard" onclick="flapThings('LennardID')">Portfolio für Jo (click) </h1>
+            <div id="LennardID" style="display: none;">
+                <p>Hey mein Internet Name ist Jo. Ich bin noch recht jung, aber nicht gerade knackig c:.
+                Ich liebe die Wissenschaft, am meisten die Naturwissenschaften. Aber auch das Programmieren
+                liebe ich. Am meisten mag ich es Bot's oder KI's zu programmieren, aber auch im WebDevelopment
+                bin ich tätig. Ich würde mich schon als Hobby Webdeveloper bezeichnen.</p>
 
-            <!--Jo's accounts-->
-            <h2 id="h2JoA" class="myAccounts" onclick="flapThings('myAccountsID')">Meine Accounts (click)</h2>
-            <div id="myAccountsID" style="display: none;">
-                <a class="first" href="https://steamcommunity.com/profiles/76561199014679462" target="_blank">Mein Steam!</a>
-                <br>
-                <a class="first" href="https://twitter.com/1431Jo1" target="_blank">Mein Twitter!</a>
-                <br>
-                <a class="first" href="https://github.com/1431Jo" target="_blank">Mein GitHub!</a>
-                <br>
-                <a class="first" href="https://github.com/1431Jos" target="_blank">Meine Github-organization</a>
-            </div>
-
-            <!--Jo's skills-->
-            <h2 id="h2JoS" class="mySkills" onclick="flapThings('mySkillsID')">Meine Skills (click)</h2>
-            <div id="mySkillsID" style="display: none;">
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Python</li>
-            </div>
-
-            <!--Jo's projects-->
-            <h2 id="h2JoP" class="myProjects" onclick="flapThings('myProjectsID')">Meine Projekte (click)</h2>
-            <div id="myProjectsID" style="display: none;">
-                <!--active projects-->
-                <h3 id="h2JoAP" class="activeProjects" onclick="flapThings('myActiveProjectsID')">Meine aktiven Projekte! (click)</h3>
-                <div id="myActiveProjectsID" style="display: none;">
-                <li> <a href="https://github.com/1431Jo/Jode">Meine eigene Portfolio Website</a> <br> <a href="https://1431jo.github.io/Jode/">Link zur Website</a></li>
+                <!--Jo's accounts-->
+                <h2 id="h2JoA" class="myAccounts" onclick="flapThings('myAccountsID')">Meine Accounts (click)</h2>
+                <div id="myAccountsID" style="display: none;">
+                    <a class="first" href="https://steamcommunity.com/profiles/76561199014679462" target="_blank">Mein Steam!</a>
+                    <br>
+                    <a class="first" href="https://twitter.com/1431Jo1" target="_blank">Mein Twitter!</a>
+                    <br>
+                    <a class="first" href="https://github.com/1431Jo" target="_blank">Mein GitHub!</a>
+                    <br>
+                    <a class="first" href="https://github.com/1431Jos" target="_blank">Meine Github-organization</a>
                 </div>
-                <!--inactive projects-->
-                <h3 id="h2JoIP" class="inactiveProjects" onclick="flapThings('myInactiveProjectsID')">Meine inaktiven Projekte! (click)</h3>
-                <div id="myInactiveProjectsID" style="display: none;">
-                <li> <a href="https://github.com/1431Jo/MyFirstDiscordBot">Mein erster Discord Bot (pausiert)</a> <br>Dieses Projekt wurde pausiert</li>
+
+                <!--Jo's skills-->
+                <h2 id="h2JoS" class="mySkills" onclick="flapThings('mySkillsID')">Meine Skills (click)</h2>
+                <div id="mySkillsID" style="display: none;">
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                </div>
+
+                <!--Jo's projects-->
+                <h2 id="h2JoP" class="myProjects" onclick="flapThings('myProjectsID')">Meine Projekte (click)</h2>
+                <div id="myProjectsID" style="display: none;">
+                    <!--active projects-->
+                    <h3 id="h2JoAP" class="activeProjects" onclick="flapThings('myActiveProjectsID')">Meine aktiven Projekte! (click)</h3>
+                    <div id="myActiveProjectsID" style="display: none;">
+                    <li> <a href="https://github.com/1431Jo/Jode">Meine eigene Portfolio Website</a> <br> <a href="https://1431jo.github.io/Jode/">Link zur Website</a></li>
+                    </div>
+                    <!--inactive projects-->
+                    <h3 id="h2JoIP" class="inactiveProjects" onclick="flapThings('myInactiveProjectsID')">Meine inaktiven Projekte! (click)</h3>
+                    <div id="myInactiveProjectsID" style="display: none;">
+                    <li> <a href="https://github.com/1431Jo/MyFirstDiscordBot">Mein erster Discord Bot (pausiert)</a> <br>Dieses Projekt wurde pausiert</li>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
 
 
-    <!--Nic portfolio-->
-    <div class="containerNiclas">
-        <h1 id="tabThree" class="Niclas" onclick="flapThings('NiclasID')">Portfolio für Nic (click) </h1>
-        <div id="NiclasID" style="display: none;">
-            <p>------------------------------------------------------------------------------------------------</p>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-
-
-    <!--Pip portfolio-->
-    <div class="containerTobi">
-        <h1 id="tabFour" class="Tobi" onclick="flapThings('TobiID')">Portfolio für Pip (click) </h1>
-        <div id="TobiID" style="display: none;">
-            <p>Hallo mein internet Name ist PiP und ich kann quasi nichts außer ein bisschen HTML
-                und relativ gut fotografieren.</p>
-
-            <!--Pip pictures-->
-            <h2 id="h2PiPPic" class="myPictures" onclick="flapThings('myPicturesID')">Ein paar meiner besten Fotos (click) </h2>
-            <div id="myPicturesID" style="display: none;">
-                <p class="insight">Das ist nur ein kleiner Einblick in meine Galerie</p>
-
-                <p>Eines meiner aktuellsten</p>
-                <img src="images/erstesBild.jpg" class="firstPic"/>
-                <p>Am selben Spot geschossen</p> 
-                <img src="images/zweitesBild.jpg" class="secPic"/>
-                <p>In meinem Garten aufgenommen</p>
-                <img src="images/drittesBild.jpg" class="thirdPic"/>
-                <p>Hier sehen sie einen schönen roten Baum im Herbst</p>
-                <img src="images/viertesBild.jpg" class="fourthPic"/>
-                <p>Dieses Bild ist an einem ruhigen Teich entstanden</p>
-                <img src="images/fünftesBild.jpg" class="fifthPic"/>
-                <p>Hier ist einfach eine tolle Spiegelung</p>
-                <img src="images/sechstesBild.jpg" class="sixthPic"/>
+        <!--Nic portfolio-->
+        <div class="containerNiclas">
+            <h1 id="tabThree" class="Niclas" onclick="flapThings('NiclasID')">Portfolio für Nic (click) </h1>
+            <div id="NiclasID" style="display: none;">
+                <p>------------------------------------------------------------------------------------------------</p>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
 
 
-    <!--archive for projects-->
-    <div class="archiveContainer">
-        <h1 id="tabFive" class="archive" onclick="flapThings('archiveID')">Unser Archiv für gemeinsame Projekte!</h1>
-        <div id="archiveID" style="display: none;">
-            <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <!--Pip portfolio-->
+        <div class="containerTobi">
+            <h1 id="tabFour" class="Tobi" onclick="flapThings('TobiID')">Portfolio für Pip (click) </h1>
+            <div id="TobiID" style="display: none;">
+                <p>Hallo mein internet Name ist PiP und ich kann quasi nichts außer ein bisschen HTML
+                    und relativ gut fotografieren.</p>
+
+                <!--Pip pictures-->
+                <h2 id="h2PiPPic" class="myPictures" onclick="flapThings('myPicturesID')">Ein paar meiner besten Fotos (click) </h2>
+                <div id="myPicturesID" style="display: none;">
+                    <p class="insight">Das ist nur ein kleiner Einblick in meine Galerie</p>
+
+                    <p>Eines meiner aktuellsten</p>
+                    <img src="images/erstesBild.jpg" class="firstPic"/>
+                    <p>Am selben Spot geschossen</p>
+                    <img src="images/zweitesBild.jpg" class="secPic"/>
+                    <p>In meinem Garten aufgenommen</p>
+                    <img src="images/drittesBild.jpg" class="thirdPic"/>
+                    <p>Hier sehen sie einen schönen roten Baum im Herbst</p>
+                    <img src="images/viertesBild.jpg" class="fourthPic"/>
+                    <p>Dieses Bild ist an einem ruhigen Teich entstanden</p>
+                    <img src="images/fünftesBild.jpg" class="fifthPic"/>
+                    <p>Hier ist einfach eine tolle Spiegelung</p>
+                    <img src="images/sechstesBild.jpg" class="sixthPic"/>
+                </div>
+            </div>
         </div>
-    </div>
+        <br>
+        <br>
+        <br>
+
+
+        <!--archive for projects-->
+        <div class="archiveContainer">
+            <h1 id="tabFive" class="archive" onclick="flapThings('archiveID')">Unser Archiv für gemeinsame Projekte!</h1>
+            <div id="archiveID" style="display: none;">
+                <!--text at the beginning-->
+                <p class="textArchive">Hey! Dies hier ist unser Archiv über gemeinsame Projekte, die wir zu dritt machten oder gerade noch machen.</p>
+
+                <!--the archive-->
+                <h2 id="h2Archive" class="archiveHeadline" onclick="flapThings('archiveHeadlineID')">Das Archiv an sich!</h2>
+                <div id="archiveHeadlineID" style="display: none;">
+                    <!--Websites-->
+                    <h3 id="h3ArchiveW" class="websiteHeadline" onclick="flapThings('websiteHeadlineID')">Unsere Webseiten</h3>
+                    <div id="websiteHeadlineID" style="display: none;">
+                        <li> <a href="https://github.com/1431Jo/dumm4">Eine Website über Gottfried Wilhelm Leibniz</a><br>Es gibt keinen Link zur Website</li>
+                        <br>
+                        <li> <a href="https://github.com/1431Jo/our-website">Der GitHub Link zu dieser Website</a><br>Du bist ja schon auf dieser Website</li>
+                    </div>
+                    <h3 id="h3ArchiveB" class="botHeadline" onclick="flapThings('botHeadlineID')">Unsere Bot's</h3>
+                    <div id="botHeadlineID" style="display: none;">
+                        <p>Wir haben zusammen leider noch keine Bots gemacht.</p>
+                    </div>
+                    <h3 id="h3ArchiveS" class="softwareHeadline" onclick="flapThings('softwareHeadlineID')">Unsere Softwares</h3>
+                    <div id="softwareHeadlineID" style="display: none;">
+                        <p>Wir haben zusammen leider noch keine Softwares gemacht.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
     </body>
 </html>
