@@ -18,6 +18,15 @@
     cursor: pointer;
     opacity: 50%;
 }
+#archiveWebsiteID, #archiveWebsiteID2 {
+    text-align: left;
+}
+#archiveBotID {
+    text-align: left;
+}
+#archiveSoftwareID {
+    text-align: left;
+}
 .archiveContainer {
     width: 1000px;
     max-width: 100%;
@@ -37,15 +46,15 @@
 .websiteHeadline {
     text-decoration: underline;
     color: hsl(450, 100%, 40%);
-    text-align: center;
+    text-align: left;
 }
 .botHeadline {
     text-decoration: underline;
     color: hsl(450, 100%, 40%);
-    text-align: center;
+    text-align: left;
 }
 .softwareHeadline {
     text-decoration: underline;
     color: hsl(450, 100%, 40%);
-    text-align: center;
+    text-align: left;
 }
