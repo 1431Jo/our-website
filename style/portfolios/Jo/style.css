@@ -6,10 +6,6 @@
     cursor: pointer;
     opacity: 50%;
 }
-#h2JoA:hover {
-    cursor: pointer;
-    opacity: 50%;
-}
 #h2JoP:hover {
     cursor: pointer;
     opacity: 50%;
@@ -30,7 +26,7 @@
 .myAccounts {
     text-decoration: underline;
     color: hsl(150, 100%, 40%);
-    text-align: center;
+    text-align: left;
 }
 .myProjects {
     text-decoration: underline;
@@ -60,4 +56,54 @@
 }
 .textArchive {
     text-align: left;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #121212;
+    transition: background-color .15s ease-in-out;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+    width: 30%;
+}
+.text-white {
+    color: #fff !important;
+}
+.mr-1, .mb-1 {
+    margin-right: auto;
+    margin-left: auto;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+a.rounded-circle:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+.twitterWidth {
+    width: 108%;
+}
+.SteamWidth {
+    width: 100%;
+    border-radius: 5px;
+}
+.githubWidth {
+    width: 95%;
 }
