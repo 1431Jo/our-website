@@ -3,6 +3,7 @@ html {
     /*for right and left transition*/
     background: linear-gradient(to right, #0d65e9, #32e29c);
     color: white;
+    font-family: 'Inconsolata', monospace;
 }
 p {
     font-size: 25px;
