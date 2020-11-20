@@ -26,6 +26,18 @@
   cursor: pointer;
   opacity: 50%;
 }
+#h3JoS:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+#h3JoG:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+#h3JoM:hover{
+  cursor: pointer;
+  opacity: 50%;
+}
 .mySkills {
      text-decoration: underline;
      color: hsl(150, 100%, 40%);
@@ -45,6 +57,21 @@
     text-decoration: underline;
     color: hsl(150, 100%, 40%);
     text-align: center;
+}
+.myMovies {
+  text-decoration: underline;
+  color: hsl(750, 100%, 40%);
+  text-align: left;
+}
+.myGames {
+  text-decoration: underline;
+  color: hsl(750, 100%, 40%);
+  text-align: left;
+}
+.mySongs {
+  text-decoration: underline;
+  color: hsl(750, 100%, 40%);
+  text-align: left;
 }
 .myEditors {
   text-decoration: underline;
