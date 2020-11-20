@@ -10,13 +10,17 @@
     cursor: pointer;
     opacity: 50%;
 }
-#h2JoAP:hover {
+#h3JoAP:hover {
     cursor: pointer;
     opacity: 50%;
 }
-#h2JoIP:hover {
+#h3JoIP:hover {
     cursor: pointer;
     opacity: 50%;
+}
+#h2JoE:hover {
+  cursor: pointer;
+  opacity: 50%;
 }
 .mySkills {
      text-decoration: underline;
@@ -29,6 +33,11 @@
     text-align: left;
 }
 .myProjects {
+    text-decoration: underline;
+    color: hsl(150, 100%, 40%);
+    text-align: center;
+}
+.myEditors {
     text-decoration: underline;
     color: hsl(150, 100%, 40%);
     text-align: center;
