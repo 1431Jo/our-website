@@ -18,7 +18,11 @@
     cursor: pointer;
     opacity: 50%;
 }
-#h2JoE:hover {
+#h2JoM:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+#h3JoE:hover {
   cursor: pointer;
   opacity: 50%;
 }
@@ -37,20 +41,28 @@
     color: hsl(150, 100%, 40%);
     text-align: center;
 }
-.myEditors {
+.myLikes {
     text-decoration: underline;
     color: hsl(150, 100%, 40%);
     text-align: center;
 }
+.myEditors {
+  text-decoration: underline;
+  color: hsl(750, 100%, 40%);
+  text-align: left;
+}
 .activeProjects {
     text-decoration: underline;
     color: hsl(750, 100%, 40%);
-    text-align: center;
+    text-align: left;
 }
 .inactiveProjects {
     text-decoration: underline;
     color: hsl(750, 100%, 40%);
-    text-align: center;
+    text-align: left;
+}
+.myLikesID {
+  text-align: left;
 }
 .containerLennard {
     width: 800px;
