@@ -6,30 +6,30 @@ html {
     font-family: 'Inconsolata', monospace;
 }
 p {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color: lightcyan;
 }
 h1 {
     color: rgb(8, 55, 63);
-    font-size: 50px;
+    font-size: 55px;
     text-decoration: underline;
 }
 h2 {
-    font-size: 35px;
+    font-size: 40px;
 }
 h3 {
-    font-size: 27px;
+    font-size: 32px;
 }
 li {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color: lightcyan;
 }
 a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
 }
 #tab:hover {
      cursor: pointer;
