@@ -6,7 +6,7 @@ html {
     font-family: 'Inconsolata', monospace;
 }
 p {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     color: lightcyan;
 }
@@ -19,17 +19,17 @@ h2 {
     font-size: 40px;
 }
 h3 {
-    font-size: 32px;
+    font-size: 37px;
 }
 li {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     color: lightcyan;
 }
 a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
 }
 #tab:hover {
      cursor: pointer;
