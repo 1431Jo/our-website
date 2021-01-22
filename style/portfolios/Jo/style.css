@@ -38,6 +38,10 @@
   cursor: pointer;
   opacity: 50%;
 }
+#h3JoGP:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
 .mySkills {
      text-decoration: underline;
      color: hsl(150, 100%, 40%);
@@ -90,6 +94,11 @@
 }
 .myLikesID {
   text-align: left;
+}
+.gameProjects {
+    text-decoration: underline;
+    color: hsl(750, 100%, 40%);
+    text-align: left;
 }
 .containerLennard {
     width: 800px;
